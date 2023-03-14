@@ -2,7 +2,7 @@
 > <b>Author: Nicola De Nicolais</b>
 
 ## 📍 Description
-Android application built with Kotlin and Jetpack Compose that shows how to switch theme between light and dark mode.
+Android application built with Kotlin and Jetpack Compose that shows how to switch theme between light and dark mode that match the light color palette and the dark color palette.
 
 ## 🛠️ Package Structure
 
