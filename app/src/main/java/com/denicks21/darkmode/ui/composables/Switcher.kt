@@ -55,10 +55,9 @@ fun Switcher(
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold
         )
-        Spacer(
-            modifier = Modifier.height(50.dp)
-        )
-        Box(modifier = Modifier
+        Spacer(modifier = Modifier.height(50.dp))
+        Box(
+            modifier = Modifier
             .width(size * 2)
             .height(size)
             .clip(shape = parentShape)
@@ -72,8 +71,7 @@ fun Switcher(
                     .padding(all = padding)
                     .clip(shape = toggleShape)
                     .background(MaterialTheme.colors.secondary)
-            ) {
-            }
+            )
             Row(
                 modifier = Modifier
                     .border(
@@ -110,12 +108,12 @@ fun Switcher(
                 }
             }
         }
-        Spacer(
-            modifier = Modifier.height(50.dp)
-        )
+        Spacer(modifier = Modifier.height(50.dp))
         Text(
-            text = if (darkTheme) "Dark theme selected"
-            else "Light theme selected",
+            text = if (darkTheme)
+                "Dark theme selected"
+            else
+                "Light theme selected",
             color = MaterialTheme.colors.secondary,
             fontSize = 16.sp,
             fontStyle = FontStyle.Italic,
