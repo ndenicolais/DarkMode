@@ -20,8 +20,8 @@ private val DarkColorPalette = darkColors(
     surface = DarkPrimary,
 //    error = DarkPrimary,
 //    onPrimary = DarkPrimary,
-//    onSecondary = DarkPrimary,
-//    onBackground = DarkPrimary,
+    onSecondary = DarkPrimary,
+    onBackground = DarkPrimary,
 //    onSurface = DarkPrimary,
 //    onError = DarkPrimary
 )
@@ -35,8 +35,8 @@ private val LightColorPalette = lightColors(
     surface = LightPrimary,
 //    error = LightPrimary,
 //    onPrimary = LightPrimary,
-//    onSecondary = LightPrimary,
-//    onBackground = LightPrimary,
+    onSecondary = LightPrimary,
+    onBackground = LightPrimary,
 //    onSurface = LightPrimary,
 //    onError = LightPrimary
 )
