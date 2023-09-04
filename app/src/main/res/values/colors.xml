@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="yellow1">#FFFFF0C8</color>
-    <color name="yellow2">#FFFFE59E</color>
-    <color name="yellow3">#FFFFD152</color>
-    <color name="dark_red">#FF852E2E</color>
-    <color name="grey2">#FF6D6E75</color>
-    <color name="grey3">#FF3C3E4B</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="black">#FF000000</color>
+    <color name="lightsurface">#FFFFFFFF</color>
+    <color name="darksurface">#FF3C3E4B</color>
+    <color name="lightyellow">#FFFFF3E0</color>
+    <color name="darkyellow">#FFFFD152</color>
+    <color name="lightgrey">#FFCECECE</color>
+    <color name="darkgrey">#FF3C3E4B</color>
+    <color name="lighttext">#FFBEB083</color>
+    <color name="darktext">#FF852E2E</color>
 </resources>

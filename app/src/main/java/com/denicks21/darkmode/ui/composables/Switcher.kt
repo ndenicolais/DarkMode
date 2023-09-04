@@ -8,7 +8,6 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -240,8 +239,7 @@ fun Switcher(
                             Text(
                                 text = (
                                         "Android application built with Kotlin and Jetpack Compose " +
-                                                "that shows how to use the Speech-to-Text & " +
-                                                "Text-to-Speech functions"
+                                                "that shows how to switch theme between light and dark mode."
                                         ),
                                 color = if (darkTheme) LightText else DarkText,
                                 textAlign = TextAlign.Center
