@@ -1,8 +1,30 @@
-# ComposeDarkMode
+# DarkMode
 > <b>Author: Nicola De Nicolais</b>
 
-## 📍 Description
-Android application built with Kotlin and Jetpack Compose that shows how to switch theme between light and dark mode. Compose provides the Colors class to model the Material color system and provides builder functions to create sets of light or dark colors. You can create a light set of colors using the baseline values, use lightColors while to create a dark set of colors using the baseline values, use darkColors. The Material design system contains 4 types of colors:
+## 📄 Description
+Android application built with Kotlin and Jetpack Compose that shows how to switch theme between light and dark mode. Compose provides the Colors class to model the Material color system and provides builder functions to create sets of light or dark colors. You can create a light set of colors using the baseline values, use lightColors while to create a dark set of colors using the baseline values, use darkColors. 
+
+## 🔨  How to install and run the project
+Clone this repository :<br/>
+`
+git clone https://github.com/ndenicolais/DarkMode.git
+`
+
+Import the project into Android Studio :
+
+1. File -> New -> Import Project
+2. Browse to <path_to_project>
+3. Click "OK"
+
+Create a new virtual device or connect an Android device to your computer.</br>
+Click Run to start the project on the selected device.
+
+## 🛠️ Built with
+Kotlin</br>
+Jetpack Compose
+
+## ✏️ Customization
+The Material design system contains 4 types of colors:
 #### Primary and secondary colors<br/>
 - *primary*: Color displayed most frequently across your app’s screens and components.
 - *secondary*: Color thtat provides more ways to accent and distinguish your product
@@ -48,13 +70,14 @@ Colors(
 )
 ```
 
-## 🛠️ Package Structure
+## 📚 Package Structure
 
 ```
 com.denicks21.recorder          # Root Package
 │ 
 ├── ui                          # UI resources folder
 │   ├── composables             # Composable components folder
+|   │   ├── BackPress           # Component that control and prevent back button action.
 |   │   ├── Switcher            # Component that switch theme.
 |
 ├── theme                       # Theme components folder
@@ -68,5 +91,4 @@ com.denicks21.recorder          # Root Package
 
 ## 📎 Screenshots
 <p float="left">
-<img height="500em" src="screenshots/Screenshot01.png" title="DarkMode's screen preview">
-<img height="500em" src="screenshots/Screenshot02.png" title="DarkMode's screen preview">
+<img height="500em" src="images/screen.png" title="DarkMode's screen preview">
